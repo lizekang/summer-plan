@@ -1,0 +1,94 @@
+.container{
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top:40px;
+    display: block;
+}
+.user{
+    width: 100%;
+    height:100px;
+    border-bottom: 1px solid #3a5795;
+}
+.avatar{
+    position: absolute;
+    display:block;
+    margin:15px 15px;
+    width: 70px;
+    height:70px;
+    border-radius: 35px;
+    border: 1px solid #3a5795;
+    background: url("../img/user-logo.png") no-repeat;
+    background-size: contain;
+}
+.full-name{
+    top:40px;
+    left:100px;
+    position: absolute;
+    display: block;
+    font-size: 18px;
+    color: #3a5795;
+}
+.log-out{
+    display: block;
+    position:absolute;
+    top:37px;
+    right: 15px;
+    width: 100px;
+    height:25px;
+    border: 1px solid #3a5795;
+    border-radius: 12px;
+    text-align: center;
+    line-height: 25px;
+}
+div ul li span{
+    height: 30px;
+    width: 30px;
+    position:absolute;
+    display: block;
+}
+li.information{
+    height:80px;
+    width: 100%;
+    border-bottom: 2px solid #aaaaaa;
+}
+li.information a{
+    margin-left: 100px;
+    color: #3a5795;
+    font-size: 1.2rem;
+    line-height: 80px;
+}
+.improve-inf{
+    margin: 25px 30px;
+    background: url("../img/profile.svg") no-repeat;
+    background-size: 30px 30px;
+}
+.if-issue{
+
+}
+.check-students{
+    margin:25px 30px;
+    background: url("../img/envelop.svg") no-repeat;
+    background-size: 30px 30px;
+}
+.check-location{
+    margin:25px 30px;
+    background: url("../img/location.svg") no-repeat;
+    background-size: 30px 30px;
+}
+i{
+    text-align: center;
+    display: inline-block;
+    width:16px;
+    height:16px;
+    margin-top:-10px;
+    background-color: #3a5795;
+    border-radius: 50%;
+    color: white;
+}
+.check-teacher{
+    margin:25px 30px;
+    background: url("../img/list.svg") no-repeat;
+    background-size: 30px 30px;
+}
+

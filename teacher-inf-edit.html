@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Teacher</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/teacher-inf.css">
+</head>
+<body>
+<header class="header">
+    <h1>编辑资料</h1>
+    <a class="back" href="personal-teacher.html">返回</a>
+</header>
+<div class="inf-container" >
+    <table class="inf-edit">
+        <tr>
+            <th class="inf-name">
+                姓名
+            </th>
+            <th class="inf-content" id="name" onclick="edit_name()">
+                何啸轩<img src="img/angle-right.svg" style="float: right;width: 20px;height: 20px;margin-top: 10px">
+            </th>
+            <!--<th style=" background: url(img/angle-right.svg) no-repeat;background-size: 20px 20px; width:20px; height: 20px;" ></th>-->
+        </tr>
+        <tr>
+            <th class="inf-name">
+                性别
+            </th>
+            <th class="inf-content" id="sex">
+                女<img src="img/angle-right.svg" style="float: right;width: 20px;height: 20px;margin-top: 10px">
+            </th>
+        </tr>
+        <tr>
+            <th class="inf-name">
+                学校
+            </th>
+            <th class="inf-content" id="school" onclick="edit_school()">
+                华中科技大学<img src="img/angle-right.svg" style="float: right;width: 20px;height: 20px;margin-top: 10px">
+            </th>
+        </tr>
+        <tr>
+            <th class="inf-name">
+                年级
+            </th>
+            <th class="inf-content" id="grade">
+                大一<img src="img/angle-right.svg" style="float: right;width: 20px;height: 20px;margin-top: 10px">
+            </th>
+        </tr>
+        <tr>
+            <th class="inf-name">
+                擅长科目
+            </th>
+            <th class="inf-content" id="subject">
+                数学 物理<img src="img/angle-right.svg" style="float: right;width: 20px;height: 20px;margin-top: 10px">
+            </th>
+        </tr>
+        <tr>
+            <th class="inf-name">
+                空闲时间
+            </th>
+            <th class="inf-content" id="time" onclick="edit_time()">
+                每天下午2：00~5:00<img src="img/angle-right.svg" style="float: right;width: 20px;height: 20px;margin-top: 10px">
+            </th>
+        </tr>
+        <tr>
+            <th class="inf-name">
+                手机号码
+            </th>
+            <th class="inf-content" id="phoneNumber" onclick="edit_phone()">
+                15927573538<img src="img/angle-right.svg" style="float: right;width: 20px;height: 20px;margin-top: 10px">
+            </th>
+        </tr>
+        <tr>
+            <th class="inf-name">
+                QQ
+            </th>
+            <th class="inf-content" id="QQ" onclick="edit_QQ()">
+                472228231<img src="img/angle-right.svg" style="float: right;width: 20px;height: 20px;margin-top: 10px">
+            </th>
+        </tr>
+        <tr>
+            <th class="inf-name">
+                个人介绍
+            </th>
+            <th class="inf-content" id="introduce">
+                逗比一枚，喜欢炉石<img src="img/angle-right.svg" style="float: right;width: 20px;height: 20px;margin-top: 10px">
+            </th>
+        </tr>
+    </table>
+</div>
+<nav class="navigation1">
+    <ul>
+        <li>
+            <span class="about-us"></span>
+            <a>关于我们</a>
+        </li>
+        <li>
+            <span class="first-page"></span>
+            <a href="index.html">首页</a>
+        </li>
+        <li>
+            <span class="personal"></span>
+            <a href="personal-teacher.html">个人中心</a>
+        </li>
+    </ul>
+</nav>
+</body>
+<script src="js/teacher-inf.js"></script>
+</html>

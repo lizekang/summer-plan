@@ -1,0 +1,187 @@
+.back{
+    display: block;
+    position: absolute;
+    color: #3a5795;
+    width: auto;
+    height: 100%;
+    padding: 10px 0;
+    font-size: 1.1rem;
+    top:0;
+    left:3%
+}
+form{
+    width: 100%;
+    position: relative;
+    display: block;
+}
+.inf-container{
+    margin-top: 40px;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(240,240,240);
+    z-index: 0;
+}
+label{
+    width: 100%;
+    height: auto;
+    line-height: 20px;
+    padding: 10px 20px;
+    display: block;
+    position: relative;
+}
+.edit{
+    width: 100%;
+    height:40px;
+    display: block;
+    margin-top: 10px;
+    box-shadow: 0 0 1px #aaaaaa;
+    background-color: #ffffff;
+    z-index: 100;
+    transition: .8s;
+}
+.edit:hover{
+    background-color: rgb(230,230,230);
+}
+.inf{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+.inf-edit{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+.inf-edit th[id="name"]:hover,th[id="sex"]:hover,th[id="school"]:hover,th[id="grade"]:hover,th[id="subject"]:hover,th[id="time"]:hover,th[id="phoneNumber"]:hover,th[id="QQ"]:hover,th[id="introduce"]:hover{
+    background-color: rgb(230,230,230);
+}
+table{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    margin: 0;
+}
+tr{
+    margin:0;
+}
+th{
+    border-bottom: 1px solid rgb(230,230,230);
+    margin: 0;
+    height: auto;
+    line-height: 40px;
+    color: #000000;
+    text-align: left;
+    transition: .8s;
+}
+.inf-name{
+    width: 100px;
+}
+.inf-content{
+    display: block;
+    width: auto;
+    margin-left: -2px;
+    margin-top: 1px;
+}
+.editIn{
+    display: block;
+    float: right;
+    width: 20px;
+    height: 20px;
+    margin:10px 20px;
+    background: url("../img/angle-right.svg") no-repeat;
+    background-size: 20px 20px;
+}
+.edit-icon{
+    position: absolute;
+    display: block;
+    float: left;
+    width: 20px;
+    height: inherit;
+    left: 10px;
+    top:20px;
+    background: url("../img/profile.svg") no-repeat;
+    background-size: 20px 20px;
+}
+.edit-text{
+    position: absolute;
+    float: left;
+    width: auto;
+    height: inherit;
+    padding-left: 110px;
+    line-height: 40px;
+}
+.curtain{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(130,130,130,0.8);
+    z-index: 9999;
+}
+
+/*
+*headline
+* */
+.headline{
+    text-align: center;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    z-index: 10000;
+    display:block;
+    margin: auto;
+}
+
+/*
+*name
+* */
+
+.name-edit{
+    position: absolute;
+    display: block;
+    z-index: 10000;
+    left: 50%;
+    top:50%;
+    margin:-50px 0 0 -100px;
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+    border:2px solid #3a5795;
+    box-shadow: 0 0 3px #3a5795;
+    background-color: #ffffff;
+}
+.name-edit form{
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+
+}
+.name-edit form input{
+    margin:auto ;
+    display: block;
+}
+.name-edit button{
+    width: 60px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid rgb(210,210,210);
+}
+.left{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    display: block;
+    float: left;
+    text-align: center;
+    line-height: 20px;
+}
+.right{
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: block;
+    float: right;
+    text-align: center;
+    line-height: 20px;
+}
+

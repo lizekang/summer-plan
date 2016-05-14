@@ -1,0 +1,27 @@
+
+.logo{
+    display: block;
+    margin:auto;
+    height: 100%;
+    width:150px;
+    background: url('../img/logo.svg') no-repeat;
+    background-size: 150px 40px;
+}
+.button{
+    display: inline-block;
+    position: absolute;
+    height:50%;
+    width:auto;
+    padding: 0 5px;
+    border-radius: 7px;
+    border:1px solid #3a5795;
+    color:#3a5795;
+    margin-top: -10px;
+    top: 50%;
+    vertical-align: middle;
+    right: 10px;
+    font-size: 0.85rem;
+}
+
+
+

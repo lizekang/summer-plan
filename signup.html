@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SignUp</title>
+    <meta name="viewport" content="width=device-width">
+    <link href="css/common.css" rel="stylesheet" type="text/css">
+    <link href="css/sign-up.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header class="header">
+        <h1>注册</h1>
+        <a class="back" href="index.html">返回</a>
+    </header>
+    <div class="signUp-container">
+        <form name="signup">
+            <label class="heading"></label>
+            <label>类&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别：
+                <input type="radio" name="work" value="teacher">教师
+                <input type="radio" name="work" value="student">学生
+            </label>
+            <label >邮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;箱：<input type="email" name="email" placeholder="使用邮箱作为登陆账号"></label>
+            <label >密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码：<input type="password" name="pwd" placeholder="请输入您的密码"></label>
+            <label >确认密码：<input type="password" name="pwdAgain" placeholder="请再次输入您的密码"></label>
+            <label ><a href="#" class="sign-up" onclick="signUpCheck()">注册</a></label>
+        </form>
+    </div>
+</body>
+<script src="js/checkForm.js"></script>
+<script src="js/signup.js"></script>
+</html>

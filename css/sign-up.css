@@ -1,0 +1,124 @@
+.header h1{
+    display: block;
+    width:auto;
+    height:100%;
+    padding: 6px 0;
+    font-size: 1.5rem;
+    margin: auto;
+    text-align: center;
+    color: #3a5795;
+}
+.back{
+    display: block;
+    position: absolute;
+    color: #3a5795;
+    width: auto;
+    height: 100%;
+    padding: 10px 0;
+    font-size: 1.1rem;
+    top:0;
+    left:3%
+}
+.signUp-container{
+    display: table;
+    position: relative;
+    width: 100%;
+    height:100%;
+    padding-top: 40px;
+}
+label{
+    display: block;
+    width: 65%;
+    margin: 20px auto;
+    position: relative;
+}
+label.heading{
+    width: 250px;
+    height: 100px;
+    margin: 0 auto 15%;
+    background: url("../img/logo.svg") no-repeat ;
+}
+input {
+    width: 50%;
+    height: 100%;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 5px;
+    border:1px solid rgb(170,170,170);
+    margin-left: 12px;
+}
+input[type="radio"]{
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    border:1px solid #3a5795;
+    content: "";
+}
+input[type="radio"]:checked{
+    background-color: #3a5795;
+}
+.sex{
+
+}
+.sign-up{
+    display: block;
+    width: 100px;
+    height: 30px;
+    border-radius: 7px;
+    border: 1px solid #3a5795;
+    background-color: #3a5795;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    font-size: 1rem;
+    margin: 20% auto 0;
+}
+.warn-wrap{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: rgba(0,0,0,0.3);
+}
+.warn{
+    position: absolute;
+    display: block;
+    z-index: 10000;
+    left: 50%;
+    top:50%;
+    margin:-50px 0 0 -100px;
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+    border:2px solid #3a5795;
+    box-shadow: 0 0 3px #3a5795;
+    background-color: #ffffff;
+
+}
+.warn a{
+    display: block;
+    height: 30px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #3a5795;
+    line-height: 30px;
+    text-align: center;
+    border-top: 1px solid #3a5795;
+    cursor: pointer;
+}
+.warn p{
+    word-wrap: break-word;
+    height:auto;
+    line-height: 30px;
+    text-align: center;
+    color: black;
+    font-size: 0.9rem;
+}
+.blur{
+    -moz-filter:blur(6px);
+    -webkit-filter:blur(6px);
+    filter: blur(6px);
+}
